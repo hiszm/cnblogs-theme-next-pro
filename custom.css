@@ -19,10 +19,15 @@
 #bannerbar{
 display:none;
 }
-.entrylistItem{
 
-border: 1px solid var(--primary-color);
-margin-top: 30px;
+.entrylistPosttitle{
+display: block;
+text-align: left;
+border-bottom: 3px solid var(--primary-color);
+}
+
+.entrylistItem{
+margin-top:20px;
 }
 
 .entrylistPostSummary{
@@ -30,32 +35,39 @@ margin:10px 0 10px 0;
 }
 
 
-.PostList{
 
-border-left: 3px solid var(--primary-color);
-    background: var(--body-bg-color);
-margin-top: 30px;
-}
 
 #sidebar_categories{
-border-left: 3px solid var(--primary-color);
-    background: var(--body-bg-color);
-    background: var(--body-bg-color);
+border-top: 1px solid var(--primary-color);
+border-bottom: 3px solid var(--primary-color);
+background: #ffffff;
 }
 
+PostsList1_rpPosts_TitleUrl_2
+
 #sidebar_toptags{
-border-left: 3px solid var(--primary-color);
+border-right: 3px solid var(--primary-color);
 background: var(--body-bg-color);
 }
 
 
 .postTitle2{
+
+
 display: block;
 text-align: left;
 border-bottom: 3px solid var(--primary-color);
 
 }
+.vertical-middle{
+display: block;
+text-align: left;
+border-bottom: 3px solid var(--primary-color);
+}
+
 
 .catListTag ul li{
 list-style:none;
 }
+
+
